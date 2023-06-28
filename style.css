@@ -1,0 +1,58 @@
+body{
+    background-image: url(game.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position:right bottom;
+    background-color: black;
+}
+
+#par{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-size: 80px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:#3e4041;
+    border: none;
+    width: 30%;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+h3{
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;;
+    font-size: 20px;
+    color: #DFDFDE;
+}
+#btn{
+    font-family: 'Inter', sans-serif;
+
+}
+:placeholder-shown{
+    font-family: 'Inter', sans-serif;
+}
+
+@media all and (max-width:800px){
+    #par {
+        display: flex;
+        flex-direction: center;  
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width:500px){
+    #par{ 
+        font-size: 30px;
+    }
+}
